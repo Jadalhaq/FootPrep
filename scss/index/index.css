@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Yusei+Magic&display=swap");
+@media only screen and (min-width: 1em) and (max-width: 47em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * #top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem 7rem 0 7rem;
+  }
+  * #top #text h1 {
+    font-size: 64px;
+    color: #0e2522;
+    font-family: "Yusei Magic";
+    text-align: center;
+  }
+  * #top #text p {
+    font-size: 10px;
+    width: 22rem;
+    margin-top: 1rem;
+    font-family: "Poppins";
+    text-align: justify;
+  }
+  * #top img {
+    display: none;
+  }
+  * #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  * #content #first,
+  * #content #second {
+    display: flex;
+    flex-direction: column;
+  }
+  * #content .articles {
+    height: 10rem;
+    max-width: 20rem;
+    margin-bottom: 7rem;
+  }
+  * #content .articles a {
+    text-decoration: none;
+  }
+  * #content .articles img {
+    width: 20rem;
+    height: 10rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 10%;
+       object-position: 50% 10%;
+    border-radius: 20px;
+  }
+  * #content .articles p {
+    color: rgba(0, 0, 0, 0.44);
+    font-size: 12px;
+    font-family: "Poppins";
+  }
+  * #content .articles h2 {
+    color: #4657b9;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer {
+    background-color: #222a5d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -3rem;
+  }
+  * footer h2 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer p {
+    font: 11px;
+    font-family: "Poppins";
+  }
+  * footer a {
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 48em) and (max-width: 63em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * #top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem 7rem 0 7rem;
+  }
+  * #top #text h1 {
+    font-size: 96px;
+    color: #0e2522;
+    font-family: "Yusei Magic";
+  }
+  * #top #text p {
+    font-size: 12px;
+    width: 20rem;
+    margin-top: 1rem;
+    font-family: "Poppins";
+    text-align: justify;
+  }
+  * #top img {
+    width: 20rem;
+  }
+  * #content {
+    display: flex;
+    flex-direction: column;
+  }
+  * #content #first,
+  * #content #second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5.75rem;
+  }
+  * #content .articles {
+    height: 6rem;
+    max-width: 14rem;
+    margin: 1rem;
+  }
+  * #content .articles a {
+    text-decoration: none;
+  }
+  * #content .articles img {
+    width: 14rem;
+    height: 6rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 10%;
+       object-position: 50% 10%;
+    border-radius: 20px;
+  }
+  * #content .articles p {
+    color: rgba(0, 0, 0, 0.44);
+    font-size: 12px;
+    font-family: "Poppins";
+  }
+  * #content .articles h2 {
+    color: #4657b9;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer {
+    background-color: #222a5d;
+    color: #fff;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  * footer h2 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer p {
+    font: 11px;
+    font-family: "Poppins";
+  }
+  * footer a {
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 64em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * #top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem 7rem 0 7rem;
+  }
+  * #top #text {
+    margin-right: -5rem;
+    margin-left: 5rem;
+  }
+  * #top #text h1 {
+    font-size: 128px;
+    color: #0e2522;
+    font-family: "Yusei Magic";
+  }
+  * #top #text p {
+    font-size: 16px;
+    width: 40rem;
+    margin-top: 1rem;
+    font-family: "Poppins";
+    text-align: justify;
+  }
+  * #top img {
+    width: 35rem;
+    margin-right: 5rem;
+  }
+  * #content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8rem 5rem;
+  }
+  * #content #first,
+  * #content #second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5rem 0;
+  }
+  * #content .articles {
+    height: 10rem;
+    max-width: 20rem;
+  }
+  * #content .articles a {
+    text-decoration: none;
+  }
+  * #content .articles img {
+    width: 20rem;
+    height: 10rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 10%;
+       object-position: 50% 10%;
+    border-radius: 20px;
+  }
+  * #content .articles img:hover {
+    border-radius: 10px;
+    height: 12rem;
+    transition: 0.5s;
+  }
+  * #content .articles p {
+    color: rgba(0, 0, 0, 0.44);
+    font-size: 12px;
+    font-family: "Poppins";
+  }
+  * #content .articles h2 {
+    color: #4657b9;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer {
+    background-color: #222a5d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -3rem;
+  }
+  * footer h2 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer p {
+    font: 11px;
+    font-family: "Poppins";
+  }
+  * footer a {
+    color: #fff;
+  }
+}/*# sourceMappingURL=index.css.map */

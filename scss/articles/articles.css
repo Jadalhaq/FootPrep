@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Yusei+Magic&display=swap");
+@media only screen and (min-width: 1em) and (max-width: 47em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * #top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -1rem;
+  }
+  * #top h1 {
+    text-align: center;
+    color: #0e2522;
+    font-size: 48px;
+    font-family: "Yusei Magic";
+  }
+  * #top #bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 2.5rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  * #top #bar #left, * #top #bar #right {
+    display: flex;
+    flex-direction: row;
+    margin: auto 1rem;
+    color: #4657b9;
+    font-size: 7px;
+    font-family: "Yusei Magic";
+  }
+  * #top #bar #left .twitter-follow-button, * #top #bar #right .twitter-follow-button {
+    display: none;
+  }
+  * #top #bar #left h2, * #top #bar #right h2 {
+    margin: auto 0;
+  }
+  * #content {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  * #content #socials {
+    display: none;
+  }
+  * #content #socials .twitter-share-button {
+    margin: 1rem 0;
+  }
+  * #content #article {
+    width: 80%;
+    text-align: justify;
+    font-family: "Poppins";
+    font-size: 12px;
+  }
+  * #content #article #words {
+    color: rgba(0, 0, 0, 0.44);
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "Poppins";
+  }
+  * #content #article #citation {
+    font-size: 10px;
+    font-style: italic;
+  }
+  * #content #article hr {
+    margin: 1rem auto;
+    width: 95%;
+  }
+  * #content #article #nbp {
+    width: 97%;
+    margin: auto;
+    text-align: justify;
+  }
+  * #content #article #nbp h2 {
+    text-align: center;
+  }
+  * footer {
+    background-color: #222a5d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  * footer h2 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer p {
+    font: 11px;
+    font-family: "Poppins";
+  }
+  * footer a {
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 48em) and (max-width: 63em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * #top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  * #top h1 {
+    text-align: center;
+    color: #0e2522;
+    font-size: 48px;
+    font-family: "Yusei Magic";
+  }
+  * #top #bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 4rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  * #top #bar #left, * #top #bar #right {
+    display: flex;
+    flex-direction: row;
+    margin: auto 1rem;
+    color: #4657b9;
+    font-size: 10px;
+    font-family: "Yusei Magic";
+  }
+  * #top #bar #left .twitter-follow-button, * #top #bar #right .twitter-follow-button {
+    margin: auto 0 auto 2px;
+  }
+  * #top #bar #left h2, * #top #bar #right h2 {
+    margin: auto 0;
+  }
+  * #content {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 2rem -5rem;
+  }
+  * #content #socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 1rem;
+    font-family: "Poppins";
+  }
+  * #content #socials .twitter-share-button {
+    margin: 1rem 0;
+  }
+  * #content #article {
+    width: 60%;
+    text-align: justify;
+    font-family: "Poppins";
+  }
+  * #content #article #words {
+    color: rgba(0, 0, 0, 0.44);
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "Poppins";
+  }
+  * #content #article #citation {
+    font-size: 10px;
+    font-style: italic;
+  }
+  * #content #article hr {
+    margin: 1rem auto;
+    width: 95%;
+  }
+  * #content #article #nbp {
+    width: 97%;
+    margin: auto;
+    text-align: justify;
+  }
+  * #content #article #nbp h2 {
+    text-align: center;
+  }
+  * footer {
+    background-color: #222a5d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  * footer h2 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer p {
+    font: 11px;
+    font-family: "Poppins";
+  }
+  * footer a {
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 64em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * #top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  * #top h1 {
+    text-align: center;
+    color: #0e2522;
+    font-size: 96px;
+    font-family: "Yusei Magic";
+  }
+  * #top #bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 4rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  * #top #bar #left, * #top #bar #right {
+    display: flex;
+    flex-direction: row;
+    margin: auto 1rem;
+    color: #4657b9;
+    font-size: 24px;
+    font-family: "Yusei Magic";
+  }
+  * #top #bar #left .twitter-follow-button, * #top #bar #right .twitter-follow-button {
+    margin: auto 0 auto 5px;
+  }
+  * #top #bar #left h2, * #top #bar #right h2 {
+    margin: auto 0;
+  }
+  * #content {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 2rem -5rem;
+  }
+  * #content #socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 1rem;
+    font-family: "Poppins";
+  }
+  * #content #socials .twitter-share-button {
+    margin: 1rem 0;
+  }
+  * #content #article {
+    width: 60%;
+    text-align: justify;
+    font-family: "Poppins";
+  }
+  * #content #article #words {
+    color: rgba(0, 0, 0, 0.44);
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "Poppins";
+  }
+  * #content #article #citation {
+    font-size: 12px;
+    font-style: italic;
+  }
+  * #content #article hr {
+    margin: 1rem auto;
+    width: 95%;
+  }
+  * #content #article #nbp {
+    width: 97%;
+    margin: auto;
+    text-align: justify;
+  }
+  * #content #article #nbp h2 {
+    text-align: center;
+  }
+  * footer {
+    background-color: #222a5d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  * footer h2 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer p {
+    font: 11px;
+    font-family: "Poppins";
+  }
+  * footer a {
+    color: #fff;
+  }
+}/*# sourceMappingURL=articles.css.map */

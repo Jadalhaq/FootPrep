@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Yusei+Magic&display=swap");
+
+$textColor: #0e2522;
+$accentColor: #4657b9;
+$primaryColor: #222a5d;
+
+$titleFont: "Yusei Magic";
+$textFont: "Poppins";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  #content {
+    margin: auto;
+    width: 80%;
+
+    h1 {
+      text-align: center;
+      color: $textColor;
+      font-size: 96px;
+      font-family: $titleFont;
+    }
+
+    h2 {
+      margin-top: 1rem;
+
+      text-decoration: underline;
+      font-weight: bold;
+      font-style: italic;
+      font-family: $textFont;
+    }
+
+    p {
+      font-family: $textFont;
+    }
+  }
+
+  footer {
+    background-color: $primaryColor;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h2 {
+      font-size: 24px;
+      font-family: $textFont;
+      font-weight: bold;
+    }
+
+    p {
+      font: 11px;
+      font-family: $textFont;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+//Mobile
+@media only screen and (min-width: 1em) and (max-width: 47em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    #content {
+      margin: auto;
+      width: 80%;
+  
+      h1 {
+        text-align: center;
+        color: $textColor;
+        font-size: 48px;
+        font-family: $titleFont;
+      }
+  
+      h2 {
+        margin-top: 1rem;
+  
+        text-decoration: underline;
+        font-weight: bold;
+        font-style: italic;
+        font-family: $textFont;
+      }
+  
+      p {
+        font-family: $textFont;
+      }
+    }
+  
+    footer {
+      background-color: $primaryColor;
+      color: #fff;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  
+      h2 {
+        font-size: 24px;
+        font-family: $textFont;
+        font-weight: bold;
+      }
+  
+      p {
+        font: 11px;
+        font-family: $textFont;
+      }
+  
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

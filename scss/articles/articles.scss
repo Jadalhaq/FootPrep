@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Yusei+Magic&display=swap");
+
+$textColor: #0e2522;
+$accentColor: #4657b9;
+$primaryColor: #222a5d;
+
+$titleFont: "Yusei Magic";
+$textFont: "Poppins";
+
+//Mobile
+@media only screen and (min-width: 1em) and (max-width: 47em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    #top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: -1rem;
+      
+      h1 {
+        text-align: center;
+        color: $textColor;
+        font-size: 48px;
+        font-family: $titleFont;
+      }
+  
+      #bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+  
+        width: 80%;
+        height: 2.5rem;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+  
+        #left, #right {
+          display: flex;
+          flex-direction: row;
+  
+          margin: auto 1rem;
+          color: $accentColor;
+          font-size: 7px;
+          font-family: $titleFont;
+  
+          .twitter-follow-button {
+            display: none;
+          }
+
+          h2 {
+            margin: auto 0;
+          }
+        }
+      }
+    }
+  
+    #content {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+  
+      #socials {
+        display: none;
+        
+        .twitter-share-button {
+          margin: 1rem 0;
+        }
+      }
+  
+      #article {
+        width: 80%;
+        text-align: justify;
+        font-family: $textFont;
+        font-size: 12px;
+  
+        #words {
+          color: rgba(0, 0, 0, 0.44);
+          text-decoration: underline;
+          font-style: italic;
+          font-family: $textFont;
+        }
+
+        #citation {
+          font-size: 10px;
+          font-style: italic;
+        }
+
+        hr {
+          margin: 1rem auto;
+          width: 95%;
+        }
+
+        #nbp {
+          width: 97%;
+          margin: auto;
+          text-align: justify;
+
+          h2 {
+            text-align: center;
+          }
+        }
+      }
+    }
+  
+    footer {
+      background-color: $primaryColor;
+      color: #fff;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  
+      h2 {
+        font-size: 24px;
+        font-family: $textFont;
+        font-weight: bold;
+      }
+  
+      p {
+        font: 11px;
+        font-family: $textFont;
+      }
+  
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+//Tablette
+@media only screen and (min-width: 48em) and (max-width: 63em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    #top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+      h1 {
+        text-align: center;
+        color: $textColor;
+        font-size: 48px;
+        font-family: $titleFont;
+      }
+  
+      #bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+  
+        width: 80%;
+        height: 4rem;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+  
+        #left, #right {
+          display: flex;
+          flex-direction: row;
+  
+          margin: auto 1rem;
+          color: $accentColor;
+          font-size: 10px;
+          font-family: $titleFont;
+  
+          .twitter-follow-button {
+            margin: auto 0 auto 2px;
+          }
+          h2 {
+            margin: auto 0;
+          }
+        }
+      }
+    }
+  
+    #content {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0 2rem -5rem;
+  
+      #socials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 1rem;
+        font-family: $textFont;
+        
+        .twitter-share-button {
+          margin: 1rem 0;
+        }
+      }
+  
+      #article {
+        width: 60%;
+        text-align: justify;
+        font-family: $textFont;
+  
+        #words {
+          color: rgba(0, 0, 0, 0.44);
+          text-decoration: underline;
+          font-style: italic;
+          font-family: $textFont;
+        }
+
+        #citation {
+          font-size: 10px;
+          font-style: italic;
+        }
+
+        hr {
+          margin: 1rem auto;
+          width: 95%;
+        }
+
+        #nbp {
+          width: 97%;
+          margin: auto;
+          text-align: justify;
+
+          h2 {
+            text-align: center;
+          }
+        }
+      }
+    }
+  
+    footer {
+      background-color: $primaryColor;
+      color: #fff;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  
+      h2 {
+        font-size: 24px;
+        font-family: $textFont;
+        font-weight: bold;
+      }
+  
+      p {
+        font: 11px;
+        font-family: $textFont;
+      }
+  
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+//Ordinateur
+@media only screen and (min-width: 64em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    #top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+      h1 {
+        text-align: center;
+        color: $textColor;
+        font-size: 96px;
+        font-family: $titleFont;
+      }
+  
+      #bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+  
+        width: 80%;
+        height: 4rem;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+  
+        #left, #right {
+          display: flex;
+          flex-direction: row;
+  
+          margin: auto 1rem;
+          color: $accentColor;
+          font-size: 24px;
+          font-family: $titleFont;
+  
+          .twitter-follow-button {
+            margin: auto 0 auto 5px;
+          }
+          h2 {
+            margin: auto 0;
+          }
+        }
+      }
+    }
+  
+    #content {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0 2rem -5rem;
+  
+      #socials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 1rem;
+        font-family: $textFont;
+        
+        .twitter-share-button {
+          margin: 1rem 0;
+        }
+      }
+  
+      #article {
+        width: 60%;
+        text-align: justify;
+        font-family: $textFont;
+  
+        #words {
+          color: rgba(0, 0, 0, 0.44);
+          text-decoration: underline;
+          font-style: italic;
+          font-family: $textFont;
+        }
+
+        #citation {
+          font-size: 12px;
+          font-style: italic;
+        }
+
+        hr {
+          margin: 1rem auto;
+          width: 95%;
+        }
+
+        #nbp {
+          width: 97%;
+          margin: auto;
+          text-align: justify;
+
+          h2 {
+            text-align: center;
+          }
+        }
+      }
+    }
+  
+    footer {
+      background-color: $primaryColor;
+      color: #fff;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  
+      h2 {
+        font-size: 24px;
+        font-family: $textFont;
+        font-weight: bold;
+      }
+  
+      p {
+        font: 11px;
+        font-family: $textFont;
+      }
+  
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

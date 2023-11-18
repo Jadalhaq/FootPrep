@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Yusei+Magic&display=swap");
+
+$textColor: #0e2522;
+$accentColor: #4657b9;
+$primaryColor: #222a5d;
+
+$titleFont: "Yusei Magic";
+$textFont: "Poppins";
+
+//Mobile
+@media only screen and (min-width: 1em) and (max-width: 47em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    #top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: 1.5rem 7rem 0 7rem;
+
+      #text {
+        h1 {
+          font-size: 64px;
+          color: $textColor;
+          font-family: $titleFont;
+          text-align: center;
+        }
+
+        p {
+          font-size: 10px;
+          width: 22rem;
+          margin-top: 1rem;
+          font-family: $textFont;
+          text-align: justify;
+        }
+      }
+
+      img {
+        display: none;
+      }
+    }
+
+    #content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+
+      #first,
+      #second {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .articles {
+        height: 10rem;
+        max-width: 20rem;
+        margin-bottom: 7rem;
+
+        a {
+          text-decoration: none;
+        }
+
+        img {
+          width: 20rem;
+          height: 10rem;
+
+          object-fit: cover;
+          object-position: 50% 10%;
+
+          border-radius: 20px;
+        }
+
+        p {
+          color: rgba(0, 0, 0, 0.44);
+          font-size: 12px;
+          font-family: $textFont;
+        }
+
+        h2 {
+          color: $accentColor;
+          font-size: 24px;
+          font-family: $textFont;
+          font-weight: bold;
+        }
+      }
+    }
+
+    footer {
+      background-color: $primaryColor;
+      color: #fff;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin-top: -3rem;
+
+      h2 {
+        font-size: 24px;
+        font-family: $textFont;
+        font-weight: bold;
+      }
+
+      p {
+        font: 11px;
+        font-family: $textFont;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+//Tablette
+@media only screen and (min-width: 48em) and (max-width: 63em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    #top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: 1.5rem 7rem 0 7rem;
+
+      #text {
+        h1 {
+          font-size: 96px;
+          color: $textColor;
+          font-family: $titleFont;
+        }
+
+        p {
+          font-size: 12px;
+          width: 20rem;
+          margin-top: 1rem;
+          font-family: $textFont;
+          text-align: justify;
+        }
+      }
+
+      img {
+        width: 20rem;
+      }
+    }
+
+    #content {
+      display: flex;
+      flex-direction: column;
+
+      #first,
+      #second {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5.75rem;
+      }
+
+      .articles {
+        height: 6rem;
+        max-width: 14rem;
+        margin: 1rem;
+
+        a {
+          text-decoration: none;
+        }
+
+        img {
+          width: 14rem;
+          height: 6rem;
+
+          object-fit: cover;
+          object-position: 50% 10%;
+
+          border-radius: 20px;
+        }
+
+        p {
+          color: rgba(0, 0, 0, 0.44);
+          font-size: 12px;
+          font-family: $textFont;
+        }
+
+        h2 {
+          color: $accentColor;
+          font-size: 24px;
+          font-family: $textFont;
+          font-weight: bold;
+        }
+      }
+    }
+
+    footer {
+      background-color: $primaryColor;
+      color: #fff;
+      margin-top: 7rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      h2 {
+        font-size: 24px;
+        font-family: $textFont;
+        font-weight: bold;
+      }
+
+      p {
+        font: 11px;
+        font-family: $textFont;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+//Ordinateur
+@media only screen and (min-width: 64em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    #top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: 1.5rem 7rem 0 7rem;
+
+      #text {
+        margin-right: -5rem;
+        margin-left: 5rem;
+
+        h1 {
+          font-size: 128px;
+          color: $textColor;
+          font-family: $titleFont;
+        }
+
+        p {
+          font-size: 16px;
+          width: 40rem;
+          margin-top: 1rem;
+          font-family: $textFont;
+          text-align: justify;
+        }
+      }
+
+      img {
+        width: 35rem;
+        margin-right: 5rem;
+      }
+    }
+
+    #content {
+      display: flex;
+      flex-direction: column;
+      margin: 0 8rem 5rem;
+
+      #first,
+      #second {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 5rem 0;
+      }
+
+      .articles {
+        height: 10rem;
+        max-width: 20rem;
+
+        a {
+          text-decoration: none;
+        }
+
+        img {
+          width: 20rem;
+          height: 10rem;
+
+          object-fit: cover;
+          object-position: 50% 10%;
+
+          border-radius: 20px;
+
+          &:hover {
+            border-radius: 10px;
+            height: 12rem;
+
+            transition: 0.5s;
+          }
+        }
+
+        p {
+          color: rgba(0, 0, 0, 0.44);
+          font-size: 12px;
+          font-family: $textFont;
+        }
+
+        h2 {
+          color: $accentColor;
+          font-size: 24px;
+          font-family: $textFont;
+          font-weight: bold;
+        }
+      }
+    }
+
+    footer {
+      background-color: $primaryColor;
+      color: #fff;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin-top: -3rem;
+
+      h2 {
+        font-size: 24px;
+        font-family: $textFont;
+        font-weight: bold;
+      }
+
+      p {
+        font: 11px;
+        font-family: $textFont;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Yusei+Magic&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* #content {
+  margin: auto;
+  width: 80%;
+}
+* #content h1 {
+  text-align: center;
+  color: #0e2522;
+  font-size: 96px;
+  font-family: "Yusei Magic";
+}
+* #content h2 {
+  margin-top: 1rem;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Poppins";
+}
+* #content p {
+  font-family: "Poppins";
+}
+* footer {
+  background-color: #222a5d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+* footer h2 {
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+* footer p {
+  font: 11px;
+  font-family: "Poppins";
+}
+* footer a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 1em) and (max-width: 47em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * #content {
+    margin: auto;
+    width: 80%;
+  }
+  * #content h1 {
+    text-align: center;
+    color: #0e2522;
+    font-size: 48px;
+    font-family: "Yusei Magic";
+  }
+  * #content h2 {
+    margin-top: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Poppins";
+  }
+  * #content p {
+    font-family: "Poppins";
+  }
+  * footer {
+    background-color: #222a5d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  * footer h2 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  * footer p {
+    font: 11px;
+    font-family: "Poppins";
+  }
+  * footer a {
+    color: #fff;
+  }
+}/*# sourceMappingURL=bibliographie.css.map */
