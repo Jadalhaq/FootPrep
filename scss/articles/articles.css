@@ -27,7 +27,8 @@
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
   }
-  * #top #bar #left, * #top #bar #right {
+  * #top #bar #left,
+  * #top #bar #right {
     display: flex;
     flex-direction: row;
     margin: auto 1rem;
@@ -35,10 +36,12 @@
     font-size: 7px;
     font-family: "Yusei Magic";
   }
-  * #top #bar #left .twitter-follow-button, * #top #bar #right .twitter-follow-button {
+  * #top #bar #left .twitter-follow-button,
+  * #top #bar #right .twitter-follow-button {
     display: none;
   }
-  * #top #bar #left h2, * #top #bar #right h2 {
+  * #top #bar #left h2,
+  * #top #bar #right h2 {
     margin: auto 0;
   }
   * #content {
@@ -79,6 +82,28 @@
   }
   * #content #article #nbp h2 {
     text-align: center;
+  }
+  * #content #retour {
+    display: flex;
+    justify-content: flex-end;
+  }
+  * #content #retour button {
+    background-color: #4657b9;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  * #content #retour button:hover {
+    background-color: #222a5d;
+    transition: 0.5s;
+  }
+  * #content #retour button a {
+    color: #fff;
+    text-decoration: none;
   }
   * footer {
     background-color: #222a5d;
@@ -128,7 +153,8 @@
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
   }
-  * #top #bar #left, * #top #bar #right {
+  * #top #bar #left,
+  * #top #bar #right {
     display: flex;
     flex-direction: row;
     margin: auto 1rem;
@@ -136,10 +162,12 @@
     font-size: 10px;
     font-family: "Yusei Magic";
   }
-  * #top #bar #left .twitter-follow-button, * #top #bar #right .twitter-follow-button {
+  * #top #bar #left .twitter-follow-button,
+  * #top #bar #right .twitter-follow-button {
     margin: auto 0 auto 2px;
   }
-  * #top #bar #left h2, * #top #bar #right h2 {
+  * #top #bar #left h2,
+  * #top #bar #right h2 {
     margin: auto 0;
   }
   * #content {
@@ -183,6 +211,28 @@
   }
   * #content #article #nbp h2 {
     text-align: center;
+  }
+  * #content #retour {
+    display: flex;
+    justify-content: flex-end;
+  }
+  * #content #retour button {
+    background-color: #4657b9;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  * #content #retour button:hover {
+    background-color: #222a5d;
+    transition: 0.5s;
+  }
+  * #content #retour button a {
+    color: #fff;
+    text-decoration: none;
   }
   * footer {
     background-color: #222a5d;
@@ -232,7 +282,8 @@
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
   }
-  * #top #bar #left, * #top #bar #right {
+  * #top #bar #left,
+  * #top #bar #right {
     display: flex;
     flex-direction: row;
     margin: auto 1rem;
@@ -240,10 +291,12 @@
     font-size: 24px;
     font-family: "Yusei Magic";
   }
-  * #top #bar #left .twitter-follow-button, * #top #bar #right .twitter-follow-button {
+  * #top #bar #left .twitter-follow-button,
+  * #top #bar #right .twitter-follow-button {
     margin: auto 0 auto 5px;
   }
-  * #top #bar #left h2, * #top #bar #right h2 {
+  * #top #bar #left h2,
+  * #top #bar #right h2 {
     margin: auto 0;
   }
   * #content {
@@ -287,6 +340,28 @@
   }
   * #content #article #nbp h2 {
     text-align: center;
+  }
+  * #content #retour {
+    display: flex;
+    justify-content: flex-end;
+  }
+  * #content #retour button {
+    background-color: #4657b9;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  * #content #retour button:hover {
+    background-color: #222a5d;
+    transition: 0.5s;
+  }
+  * #content #retour button a {
+    color: #fff;
+    text-decoration: none;
   }
   * footer {
     background-color: #222a5d;

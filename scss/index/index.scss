@@ -7,8 +7,118 @@ $primaryColor: #222a5d;
 $titleFont: "Yusei Magic";
 $textFont: "Poppins";
 
+//Mini
+@media only screen and (min-width: 1em) and (max-width: 21em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    #top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: 1.5rem 7rem 0 7rem;
+
+      #text {
+        h1 {
+          font-size: 64px;
+          color: $textColor;
+          font-family: $titleFont;
+          text-align: center;
+        }
+
+        p {
+          font-size: 10px;
+          width: 22rem;
+          margin-top: 1rem;
+          font-family: $textFont;
+          text-align: justify;
+        }
+      }
+
+      img {
+        display: none;
+      }
+    }
+
+    #content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+
+      #first,
+      #second {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .articles {
+        height: 10rem;
+        max-width: 20rem;
+        margin-bottom: 7rem;
+
+        a {
+          text-decoration: none;
+        }
+
+        img {
+          width: 20rem;
+          height: 10rem;
+
+          object-fit: cover;
+          object-position: 50% 10%;
+
+          border-radius: 20px;
+        }
+
+        p {
+          color: rgba(0, 0, 0, 0.44);
+          font-size: 12px;
+          font-family: $textFont;
+        }
+
+        h2 {
+          color: $accentColor;
+          font-size: 24px;
+          font-family: $textFont;
+          font-weight: bold;
+        }
+      }
+    }
+
+    footer {
+      background-color: $primaryColor;
+      color: #fff;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin-top: -3rem;
+
+      h2 {
+        font-size: 24px;
+        font-family: $textFont;
+        font-weight: bold;
+      }
+
+      p {
+        font: 11px;
+        font-family: $textFont;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
 //Mobile
-@media only screen and (min-width: 1em) and (max-width: 47em) {
+@media only screen and (min-width: 22em) and (max-width: 47em) {
   * {
     margin: 0;
     padding: 0;
@@ -236,7 +346,7 @@ $textFont: "Poppins";
     #top {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       margin: 1.5rem 7rem 0 7rem;
 
@@ -252,7 +362,7 @@ $textFont: "Poppins";
 
         p {
           font-size: 16px;
-          width: 35rem;
+          width: 30rem;
           margin-top: 1rem;
           font-family: $textFont;
           text-align: justify;

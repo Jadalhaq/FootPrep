@@ -24,6 +24,28 @@
 * #content p {
   font-family: "Poppins";
 }
+* #content #retour {
+  display: flex;
+  justify-content: flex-end;
+}
+* #content #retour button {
+  background-color: #4657b9;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+* #content #retour button:hover {
+  background-color: #222a5d;
+  transition: 0.5s;
+}
+* #content #retour button a {
+  color: #fff;
+  text-decoration: none;
+}
 * footer {
   background-color: #222a5d;
   color: #fff;
